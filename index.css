@@ -1,0 +1,56 @@
+body{
+    background-color:aqua;
+}
+
+.main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h2{
+    color: white;
+}
+
+form{
+    padding: 25px;
+    justify-content: center;
+}
+
+.main input{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.body-p{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-p h2{
+    color: rgb(67, 120, 165);
+}
+
+.body-p p{
+    color: white;
+    border: 2px solid rgb(67, 120, 165);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.body-p a{
+    border: 1px solid rgb(67, 120, 165);
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: aquamarine;
+
+}
